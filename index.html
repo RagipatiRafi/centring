@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title> Centering the elements using the text </title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .main{
+                width:900px;
+                height:1000px;
+                border:2px solid pink;
+            }
+            h1{
+                text-align: center;
+                font-weight:500px;
+                color: red;
+            
+            }
+            .line{
+                background-color:darkslateblue;
+                width:500px;
+                height:3px;
+                margin:auto; 
+            
+            }
+            label{
+                position:absolute;
+                background-color: cornflowerblue;
+                border:3px solid black;
+                font-size: 30px;
+                color:mediumvioletred;
+                width:250px;
+                height:100px;
+                top: 400;
+                left:350;
+                transform: translate(40%,60%);
+                
+            }
+            @media screen and (max-width:700px){
+                label{
+                    
+               
+                width:100px;
+                height:200px;
+            }
+                 }
+            @media screen and (min-width: 701px) and (max-width: 1200px){
+                label{
+                    width:500px;
+                    height:750px;
+                }
+            }
+            p{
+                background-color: chartreuse;
+                border:3px solid blue;
+                position: relevent;
+                width:600px;
+                height:200px;
+                top:600;
+                left;450;
+                transform: translate(30%,40%);
+                
+            }
+            @media screen and (max-width:700px){
+                p{
+                    
+               
+                width:200px;
+                height:200px;
+            }
+                 }
+            @media screen and (min-width: 701px) and (max-width: 1200px){
+                p{
+                    width:750px;
+                    height:750px;
+                }
+            }
+            img{
+                position:static;
+                border:3px solid red;
+                top:100;
+                left:300;
+                width:200px;
+                height:300px;
+                transform: translate(60%,50%)
+            }
+            @media screen and (max-width:700px){
+                img{
+                    
+               
+                width:200px;
+                height:200px;
+            }
+                 }
+            @media screen and (min-width: 701px) and (max-width: 1200px){
+                img{
+                    width:750px;
+                    height:750px;
+                }
+            }
+            sub{
+                color:red;
+                font-size: 30px;
+                 background-color:deepskyblue;
+                
+            }
+            sup{
+                color:crimson;
+                 font-size: 30px;
+                background-color: aqua;
+            }
+            body{
+                background-image: url("background.jpeg");
+        
+            }
+            </style>
+    </head>
+    <body>
+        <div class = "main">
+            <header><h1> Using Text On Centering Elements </h1></header>
+            <div class ="line"></div>
+        <label> Rafi</label>
+            
+            <br>
+        <p>The center-tag in HTML is used to set the alignment of text into the center. This tag is not supported in HTML5. CSS’s property is used to set the alignment of the element instead of the center tag in HTML5.
+            If you are designing a simple web page, then not much difference is noticeable, but it is very necessary to understand the basic differences between these two. Since we are only concerned with the text, these elements do not have separate meanings.
+ The center-tag in HTML is used to set to align of text into the center. This tag is not supported in HTML 5. CSS property is used to set the alignment of the element instead of the center tag in HTML 5. It is a block-level element that is used to display the text enclosed in the tag in the center horizontally. Most common browsers such as Google Chrome, Mozilla Firefox, Internet Explorer support this tag.
+ </p>
+            <br>
+            <img src= "download%20(1).jpeg">
+            <br>
+          <center> <sub>Ra</sub><sup>gi</sup><sub>pa</sub><sup>ti</sup>&nbsp;&nbsp;<sub>Ra</sub><sup>fi</sup></center> 
+            
+        </div>
+        
+    </body>
+</html>
